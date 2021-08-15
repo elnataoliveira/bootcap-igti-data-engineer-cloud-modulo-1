@@ -1,7 +1,6 @@
-/*
 resource "aws_s3_bucket" "datalake" {
   #parâmetros de configuração
-  bucket = "${var.base_bucket_name}"
+  bucket = "${var.base_bucket_name}-${var.ambiente}-${var.number_account}"
   acl    = "private"
 
   server_side_encryption_configuration {
@@ -18,12 +17,10 @@ resource "aws_s3_bucket" "datalake" {
   }
 
 }
-*/
-
 
 resource "aws_s3_bucket_object" "codigo_spark" {
 
-  bucket = var.base_bucket_name.id
+  bucket = aws_s3_bucket.datalake.id
   key    = "emr-code/pyspark/transform_from_tf.py"
   acl    = "private"
   source = "../etl/transform.py"
