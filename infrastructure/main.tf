@@ -20,6 +20,7 @@ resource "aws_s3_bucket" "datalake" {
 }
 */
 
+
 resource "aws_s3_bucket_object" "codigo_spark" {
 
   bucket = var.base_bucket_name.id
