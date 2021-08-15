@@ -27,6 +27,3 @@ resource "aws_s3_bucket_object" "codigo_spark" {
   etag   = filemd5("../etl/transform.py")
 }
 
-provider "aws" {
-  region = "us-east-2"
-}
