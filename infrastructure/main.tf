@@ -1,3 +1,4 @@
+/*
 resource "aws_s3_bucket" "datalake" {
   #parâmetros de configuração
   bucket = "${var.base_bucket_name}"
@@ -17,6 +18,7 @@ resource "aws_s3_bucket" "datalake" {
   }
 
 }
+*/
 
 resource "aws_s3_bucket_object" "codigo_spark" {
 
