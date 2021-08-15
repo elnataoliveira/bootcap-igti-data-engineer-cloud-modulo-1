@@ -10,6 +10,6 @@ variable "environment" {
   default = "production"
 }
 
-variable "number-account"{
+variable "number_account"{
   default = "386643807537"
 }
