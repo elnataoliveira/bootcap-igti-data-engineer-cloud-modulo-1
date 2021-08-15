@@ -33,5 +33,5 @@ jobs:
       run: |
         cd infrastructure
         $COMMAND_IAC init
-        $COMMAND_IAC validade
+        $COMMAND_IAC validate
         $COMMAND_IAC plan
