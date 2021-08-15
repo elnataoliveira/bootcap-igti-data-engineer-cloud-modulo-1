@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "datalake" {
   #parâmetros de configuração
-  bucket = "${var.base_bucket_name}-${var.ambiente}-${var.numero_conta}"
+  bucket = "${var.base_bucket_name}"
   acl    = "private"
 
   server_side_encryption_configuration {
@@ -27,6 +27,3 @@ resource "aws_s3_bucket_object" "codigo_spark" {
   etag   = filemd5("../etl/transform.py")
 }
 
-provider "aws" {
-  region = "us-east-2"
-}
