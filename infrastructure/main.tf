@@ -20,9 +20,10 @@ resource "aws_s3_bucket" "datalake" {
 }
 */
 
+
 resource "aws_s3_bucket_object" "codigo_spark" {
 
-  bucket = aws_s3_bucket.datalake.id
+  bucket = var.base_bucket_name.id
   key    = "emr-code/pyspark/transform_from_tf.py"
   acl    = "private"
   source = "../etl/transform.py"
