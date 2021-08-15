@@ -5,8 +5,8 @@ provider "aws" {
 #controle de estado 
 terraform {
   backend "s3" {
-    bucket = var.base_bucket_name
+    bucket = "mindsetcloud"
     key    = "state/terraform/terraform.tfstate"
-    region = var.aws_region
+    region = "us-east-2"
   }
 }
