@@ -3,7 +3,7 @@
 ## BootCamp IGTI - Engenheiro de Dados Cloud
 ### Desafio | módulo 1 | aws Cloud
 #### Criando um Ecossistema Big Data na Nuvem Totalmente Gerenciado com AWS Cloud
-##### Desafio [*censo*](https://github.com/elnataoliveira/cognizant-cloud-data-engineer/tree/main/datalake-dio/output) escolar 2020
+##### Desafio [*censo*](https://github.com/elnataoliveira/igti-data-engineer-cloud-mod-1/blob/master/desafio.ipynb) escolar 2020
 
 ##### ETAPAS:
 
@@ -12,7 +12,4 @@
   - Implementação de Processamento de Big Data;
   - Esteiras de Deploy, utilizando o Github;
   - IaC com Terraform.
-  - fazer [*upload*](https://github.com/elnataoliveira/cognizant-cloud-data-engineer/blob/main/etl/s3_load.py) do livro sherlock.txt para o diretorio data no bucket
-  - criar um [*cluster*](https://github.com/elnataoliveira/cognizant-cloud-data-engineer/blob/main/etl/dio-live-wordcount-test.py) emr e [*iniciar*](https://github.com/elnataoliveira/cognizant-cloud-data-engineer/blob/main/configure/load_init_jod.sh) o job
- 
-
+  
