@@ -3,7 +3,7 @@
 ## BootCamp IGTI - Engenheiro de Dados Cloud
 ### Desafio | módulo 1 | aws Cloud
 #### Criando um Ecossistema Big Data na Nuvem Totalmente Gerenciado com AWS Cloud
-##### Contador de palavras [*livro*](https://github.com/elnataoliveira/cognizant-cloud-data-engineer/tree/main/datalake-dio/output)
+##### Desafio [*censo*](https://github.com/elnataoliveira/cognizant-cloud-data-engineer/tree/main/datalake-dio/output) escolar 2020
 
 ##### ETAPAS:
 
